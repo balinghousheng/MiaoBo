@@ -6,9 +6,9 @@
 //  Copyright © 2016年 XuLi. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "XLNewModel.h"
 #import "XLHotModel.h"
+#import "XLNewModel.h"
+#import <UIKit/UIKit.h>
 
 @interface XLCollectionViewCell : UICollectionViewCell
 

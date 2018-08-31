@@ -1447,10 +1447,10 @@
 		BD035F631D75BD7A00BB90F6 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				BD035F641D75BD7A00BB90F6 /* Care */,
-				BD035F681D75BD7A00BB90F6 /* Hot */,
 				BD035F6C1D75BD7A00BB90F6 /* Main */,
+				BD035F681D75BD7A00BB90F6 /* Hot */,
 				BD035F701D75BD7A00BB90F6 /* New */,
+				BD035F641D75BD7A00BB90F6 /* Care */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -1631,11 +1631,11 @@
 		BD035F761D75BD7A00BB90F6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BDAEA3E71D76AF15001FABF4 /* XLWatchLiveViewController.h */,
+				BDAEA3E81D76AF15001FABF4 /* XLWatchLiveViewController.m */,
 				BD0360E71D75F5CC00BB90F6 /* XLPlayLiveViewContorller.h */,
 				BD0360E81D75F5CC00BB90F6 /* XLPlayLiveViewContorller.m */,
 				BD0360F01D75F8E300BB90F6 /* XLPlayLiveViewContorller.xib */,
-				BDAEA3E71D76AF15001FABF4 /* XLWatchLiveViewController.h */,
-				BDAEA3E81D76AF15001FABF4 /* XLWatchLiveViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";

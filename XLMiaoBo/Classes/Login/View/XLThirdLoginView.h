@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-typedef NS_ENUM(NSInteger, XLType){
-    
+typedef NS_ENUM(NSInteger, XLType) {
+
     sina,
     qq,
     weixin
@@ -17,5 +17,5 @@ typedef NS_ENUM(NSInteger, XLType){
 
 @interface XLThirdLoginView : UIView
 
-@property (nonatomic, copy) void(^selectedBlock)(XLType type);
+@property (nonatomic, copy) void (^selectedBlock)(XLType type);
 @end

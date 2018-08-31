@@ -11,12 +11,12 @@
 @interface XLHotHeaderResult : NSObject
 
 /** 状态码 */
-@property (nonatomic, copy) NSString *code;
+@property(nonatomic, copy) NSString *code;
 
 /** 状态 */
-@property (nonatomic, copy) NSString *msg;
+@property(nonatomic, copy) NSString *msg;
 
 /** 返回主播信息 */
-@property (nonatomic, strong) NSArray *data;
+@property(nonatomic, strong) NSArray *data;
 
 @end

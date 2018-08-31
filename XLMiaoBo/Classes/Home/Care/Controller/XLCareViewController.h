@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ 关注
+ */
 @interface XLCareViewController : UICollectionViewController
 
 @end

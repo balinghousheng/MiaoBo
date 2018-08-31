@@ -6,9 +6,12 @@
 //  Copyright © 2016年 XuLi. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import "XLHotModel.h"
+#import <UIKit/UIKit.h>
 
+/**
+ 直播页面
+ */
 @interface XLWatchLiveViewController : UIViewController
 
 @property (nonatomic, strong) XLHotModel *hotModel;

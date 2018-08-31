@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ 最新
+ */
 @interface XLNewViewController : UICollectionViewController
 
 @end

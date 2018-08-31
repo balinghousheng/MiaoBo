@@ -11,7 +11,7 @@
 @interface XLHotTableViewCell : UITableViewCell
 
 @property (nonatomic, strong) XLHotModel *hotModel;
-@property (nonatomic, strong) NSArray *allModels;
+@property (nonatomic, strong) NSArray *   allModels;
 
 @property (nonatomic, assign) CGFloat height;
 

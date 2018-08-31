@@ -11,7 +11,7 @@
 @interface XLHotData : NSObject
 
 /** 返回多少条主播信息 */
-@property (nonatomic, strong) NSNumber *counts;
+@property(nonatomic, strong) NSNumber *counts;
 /** 主播信息列表 */
-@property (nonatomic, strong) NSArray *list;
+@property(nonatomic, strong) NSArray *list;
 @end

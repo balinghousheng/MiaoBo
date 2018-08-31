@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ 热门
+ */
 @interface XLHotViewController : UIViewController
 
 @end

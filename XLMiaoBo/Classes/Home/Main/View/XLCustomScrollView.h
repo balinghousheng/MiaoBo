@@ -10,8 +10,8 @@
 
 @interface XLCustomScrollView : UIScrollView
 
-@property (nonatomic, strong) UIViewController *vc;
+@property(nonatomic, strong) UIViewController *vc;
 
 /** 偏移x坐标 */
-@property (nonatomic, assign) NSInteger contenOffsetX;
+@property(nonatomic, assign) NSInteger contenOffsetX;
 @end

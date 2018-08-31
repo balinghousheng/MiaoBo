@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ 热门+最新+关注
+ */
 @interface XLHomeViewController : UIViewController
 
 @end

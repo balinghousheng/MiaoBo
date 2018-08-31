@@ -11,9 +11,8 @@
 
 @implementation XLHotData
 
-+ (NSDictionary *)mj_objectClassInArray
-{
-    return @{@"list" : [XLHotModel class]};
++ (NSDictionary *)mj_objectClassInArray {
+  return @{ @"list" : [XLHotModel class] };
 }
 
 @end
