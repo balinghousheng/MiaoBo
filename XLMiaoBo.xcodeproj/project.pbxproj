@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62205F9A2138EAB400F8C854 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62205F992138EAB300F8C854 /* IJKMediaFramework.framework */; };
 		BD035F2D1D75B75A00BB90F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD035F2C1D75B75A00BB90F6 /* main.m */; };
 		BD035F361D75B75A00BB90F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD035F341D75B75A00BB90F6 /* Main.storyboard */; };
 		BD035F381D75B75A00BB90F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD035F371D75B75A00BB90F6 /* Assets.xcassets */; };
@@ -431,7 +432,6 @@
 		BDAEA44B1D76CF97001FABF4 /* XLCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDAEA44A1D76CF97001FABF4 /* XLCollectionViewCell.xib */; };
 		BDAEA44E1D76D488001FABF4 /* UIImageView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAEA44D1D76D488001FABF4 /* UIImageView+Extension.m */; };
 		BDE5C5FE1D882B36004AF14C /* XLWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE5C5FD1D882B36004AF14C /* XLWaveView.m */; };
-		BDE692911D889E8200BEFDEA /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDE692901D889E8200BEFDEA /* IJKMediaFramework.framework */; };
 		BDFD55EB1D84623400C6DC94 /* UIBarButtonItem+XL.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFD55EA1D84623400C6DC94 /* UIBarButtonItem+XL.m */; };
 /* End PBXBuildFile section */
 
@@ -453,6 +453,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		62205F992138EAB300F8C854 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		BD035F281D75B75A00BB90F6 /* XLMiaoBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLMiaoBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD035F2C1D75B75A00BB90F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BD035F351D75B75A00BB90F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -1274,7 +1275,6 @@
 		BDAEA44D1D76D488001FABF4 /* UIImageView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Extension.m"; sourceTree = "<group>"; };
 		BDE5C5FC1D882B36004AF14C /* XLWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLWaveView.h; sourceTree = "<group>"; };
 		BDE5C5FD1D882B36004AF14C /* XLWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLWaveView.m; sourceTree = "<group>"; };
-		BDE692901D889E8200BEFDEA /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		BDFD55E91D84623400C6DC94 /* UIBarButtonItem+XL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XL.h"; sourceTree = "<group>"; };
 		BDFD55EA1D84623400C6DC94 /* UIBarButtonItem+XL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XL.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1289,7 +1289,6 @@
 				BD2BB3E51D77AC4D0049B18F /* TencentOpenAPI.framework in Frameworks */,
 				BDA7BACA1D7736E30078A5AD /* libsqlite3.0.tbd in Frameworks */,
 				BDA7BAC81D7736D20078A5AD /* libstdc++.6.0.9.tbd in Frameworks */,
-				BDE692911D889E8200BEFDEA /* IJKMediaFramework.framework in Frameworks */,
 				BDA7BAC61D7736C50078A5AD /* libiconv.2.4.0.tbd in Frameworks */,
 				BD03637D1D75FB4C00BB90F6 /* UIKit.framework in Frameworks */,
 				BD0360751D75CE4300BB90F6 /* MediaPlayer.framework in Frameworks */,
@@ -1311,6 +1310,7 @@
 				BD03605D1D75C71A00BB90F6 /* Foundation.framework in Frameworks */,
 				BD03605B1D75C71400BB90F6 /* CoreMedia.framework in Frameworks */,
 				BD0360591D75C70900BB90F6 /* CoreGraphics.framework in Frameworks */,
+				62205F9A2138EAB400F8C854 /* IJKMediaFramework.framework in Frameworks */,
 				BDA7BB041D77394F0078A5AD /* libWeiboSDK.a in Frameworks */,
 				BD0360571D75C70100BB90F6 /* CFNetwork.framework in Frameworks */,
 				BD0360551D75C6F900BB90F6 /* AudioToolbox.framework in Frameworks */,
@@ -1339,7 +1339,6 @@
 		BD035F1F1D75B75A00BB90F6 = {
 			isa = PBXGroup;
 			children = (
-				BDE692901D889E8200BEFDEA /* IJKMediaFramework.framework */,
 				BD035F2A1D75B75A00BB90F6 /* XLMiaoBo */,
 				BD035F441D75B75A00BB90F6 /* XLMiaoBoTests */,
 				BD035F4F1D75B75A00BB90F6 /* XLMiaoBoUITests */,
@@ -1845,6 +1844,7 @@
 		BD035F8E1D75BD8500BB90F6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				62205F992138EAB300F8C854 /* IJKMediaFramework.framework */,
 				BDA7BB061D773A8D0078A5AD /* CoreTelephony.framework */,
 				BDA7BACB1D7737490078A5AD /* Social.framework */,
 				BDA7BAC91D7736E30078A5AD /* libsqlite3.0.tbd */,
@@ -3091,6 +3091,7 @@
 				TargetAttributes = {
 					BD035F271D75B75A00BB90F6 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = QTR3NT98RR;
 					};
 					BD035F401D75B75A00BB90F6 = {
 						CreatedOnToolsVersion = 7.2;
@@ -3643,7 +3644,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -3681,7 +3682,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -3693,6 +3694,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QTR3NT98RR;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/XLMiaoBo/Frameworks",
@@ -3721,6 +3723,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QTR3NT98RR;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/XLMiaoBo/Frameworks",
